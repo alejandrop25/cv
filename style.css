@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    background-color: #1190c2;
+}
+
+.container {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
+img{
+    width: 135px;
+    border-radius: 100%;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: robotoblack;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/Roboto-Black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
