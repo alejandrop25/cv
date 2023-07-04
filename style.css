@@ -18,16 +18,21 @@ img{
 }
 
 h1{
-    font-family: robotoblack;
+    font-family: 'Caprasimo', cursive;
     text-align: center;
     font-size: 50px;
     padding-top: 10px;
 }
 
-@font-face {
-    font-family: 'robotoblack';
-    src: url('fonts/Roboto-Black-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    position: relative;
+    left: 20px;
+}
 
+p{
+    font-weight: bold;
+    position: relative;
+    left: 15px;
 }
